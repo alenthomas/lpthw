@@ -25,3 +25,13 @@ print "His teeth are usually %s depending on the coffee." % teeth
 
 # this line is tricky, try to get it exactly right
 print "If I add %d, %d, and %d I get %d." %( age, height_to_cm, weight_to_pound, age + height_to_cm + weight_to_pound)
+
+# %d integer
+# %o octal 
+# %x hexadecimal
+# %e exponential
+# %f floating point
+# %c single character
+# %s string
+# %r object to string using repr()
+# repr(object)
