@@ -1,8 +1,12 @@
+# prints line 
 print "Mary had a little lamb."
+#prints line with formater %s
 print "Its fleece was white as %s." % 'snow'
+#prints line
 print "And everywhere that Mary went."
+# prints line and then multiples it 10 times
 print "." * 10 # what'd that do?
-
+#declares variables CheeseBurger
 end1 = "C"
 end2 = "h"
 end3 = "e"
@@ -19,3 +23,5 @@ end12 = "r"
 # watch that comma at the end. try removing it to see what happens
 print end1 + end2 + end3 + end4 + end5 + end6
 print end7 + end8 + end9 + end10 + end11 + end12
+# the comma concatenates the line with the next print line
+# without the comma the lines are printed seperately
