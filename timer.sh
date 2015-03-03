@@ -1,0 +1,1 @@
+sleep 1h&& clementine alarm.mp3 &
