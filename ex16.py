@@ -29,12 +29,12 @@ line3 = raw_input("line 3: ")
 print "I'm going to write these to the file."
 
 #write the lines to file with a newline between after every line
-target.write(line1)
-target.write("\n")
-target.write(line2)
-target.write("\n")
-target.write(line3)
-target.write("\n")
+target.write(line1 + "\n" + line2 + "\n" + line3 + "\n")
+#target.write("\n")
+#target.write(line2)
+#target.write("\n")
+#target.write(line3)
+#target.write("\n")
 
 #finally close the file
 print "And finally, we close it."
