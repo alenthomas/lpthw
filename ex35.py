@@ -3,8 +3,17 @@ from sys import exit
 def gold_room():
     print "This room is full of gold. How much do you take?"
 
+# insert check statement to see if the entered input is a string of integers or characters. Only integer value changes the programs controll flow
     choice = raw_input("> ")
     if "0" in choice or "1" in choice:
+        how_much = int(choice)
+    elif "2" in choice or "3" in choice:
+        how_much = int(choice)
+    elif "4" in choice or "5" in choice:
+        how_much = int(choice)
+    elif "6" in choice or "7" in choice:
+        how_much = int(choice)
+    elif "8" in choice or "9" in choice:
         how_much = int(choice)
     else:
         dead("Man, lear to type a number.")
@@ -31,6 +40,7 @@ def bear_room():
         elif choice == "taunt bear" and not bear_moved:
             print "The bear has moved from the door. You can go through it now."
             bear_moved = True
+# this is a funny check statement , it checks if the bear is taunted more than once , if so it just chews our leg off :p ;)
         elif choice == "taunt bear" and bear_moved:
             dead("The bear gets pissed off and chews your leg off.")
         elif choice == "open door" and bear_moved:
@@ -42,7 +52,7 @@ def bear_room():
 def cthulhu_room():
     print "Here you see the great evil Cthulhu."
     print "He, it, whatever stares at you and you go insane."
-    print "Do you flee for your life or eat you head?"
+    print "Do you flee for your life or eat your head?"
 
     choice = raw_input("> ")
 
@@ -73,3 +83,5 @@ def start():
         dead("You stumble around the room until you starve.")
 
 start()
+
+
