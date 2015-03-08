@@ -1,3 +1,9 @@
 ex17.py
 
 ex19.py # add your own function and invoke it many times
+
+ex31.py # add more nested ifs and edit file
+
+ex36.py # write a small game like script 
+
+ex37.py # read code and learn important python keywords and their functions
