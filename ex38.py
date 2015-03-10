@@ -16,7 +16,11 @@ print "There we go: ", stuff
 print "Let's do some things with stuff."
 
 print stuff[1]
+# '-' indexes print lists backwards
 print stuff[-1] # whoa! fancy
 print stuff.pop()
-print ' '.join(stuff) # what? cool!
+# join(list)  concatenates lists to strings with the given parameter
+#            in this case its a space
+print' '.join(stuff) # what? cool!
+# join items from indexes 3 and 5 with a # symbol
 print '#'.join(stuff[3:5]) # super stellar!
