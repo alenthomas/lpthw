@@ -35,9 +35,10 @@ print "Florida has: ", cities[states['Florida']]
 
 # print every state abbreviation
 print '-' * 10
+# it takes the 'state' as key of dict and 'abbrev' as the value of that particular dict item 
 for state, abbrev in states.items():
     print "%s is abbreviated %s" % (state, abbrev)
-
+#    print states.items()
 # print every city in state
 print '-' * 10
 for abbrev, city in cities.items():
