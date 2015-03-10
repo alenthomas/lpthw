@@ -7,3 +7,7 @@ ex31.py # add more nested ifs and edit file
 ex36.py # write a small game like script 
 
 ex37.py # read code and learn important python keywords and their functions
+
+ex38.py # join function ; especially with stuff like print '#'.join(stuff[1:5]) # super stellar!
+
+ex39.py # dict built in functions eg: dict.items(), dict.get()
