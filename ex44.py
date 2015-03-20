@@ -6,6 +6,8 @@ class Parent(object):
 class Child(Parent):
     def implicit(self):
         print "CHILD implicit()"
+        super(Child, self).implicit()
+        print "CHILD, AFTER PARENT altered()"
 
 dad = Parent()
 son = Child()
